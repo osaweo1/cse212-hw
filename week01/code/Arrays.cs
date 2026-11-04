@@ -52,7 +52,7 @@ public static class Arrays
         // Step 3: Calculate the split index where the rotation point begins (data.Count - amount).
         // Step 4: Use GetRange to slice out the right-hand portion that needs to wrap around to the front.
         // Step 5: Use GetRange to slice out the remaining left-hand portion of the list.
-        // Step 6: Clear the original list using data.Clear().
+        // Step 6: Clear the original list using data.Clear()
         // Step 7: Re-populate the original list by adding the right part first, followed by the left part using AddRange()
         if (data == null || data.Count <= 1 || amount <= 0)
         {
