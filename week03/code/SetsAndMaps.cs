@@ -175,5 +175,5 @@ public static class SetsAndMaps
         }
 
         return earthquakes.ToArray();
-            }
+    }
 }
